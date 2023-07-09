@@ -27,6 +27,7 @@ ChatGLM2-6B 开源模型旨在与开源社区一起推动大模型技术发展�
 ## 更新信息
 **[2023/07/04]** 发布 P-Tuning v2 与 全参数微调脚本，参见 [P-Tuning](./ptuning)。  
 **[2023/07/07]** 此行为非官方改动说明，仅对PAI脚本做了模型路径修改和web-demo.py的launch(share=True, inbrowser=True)
+**[2023/07/07]** 此行为非官方改动说明，添加了PAI-DSW脚本[Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb](./blob/main/Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb)
 
 ## 友情链接
 对 ChatGLM2 进行加速的开源项目：
