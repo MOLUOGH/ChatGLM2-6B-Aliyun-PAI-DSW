@@ -11,6 +11,9 @@
 
 ## 介绍
 
+该项目包含了阿里云部署ChatGLM2-6B到PAI-DSW的一键脚本[Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb](./Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb)，该项目是[ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)的fork
+
+
 ChatGLM**2**-6B 是开源中英双语对话模型 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) 的第二代版本，在保留了初代模型对话流畅、部署门槛较低等众多优秀特性的基础之上，ChatGLM**2**-6B 引入了如下新特性：
 
 1. **更强大的性能**：基于 ChatGLM 初代模型的开发经验，我们全面升级了 ChatGLM2-6B 的基座模型。ChatGLM2-6B 使用了 [GLM](https://github.com/THUDM/GLM) 的混合目标函数，经过了 1.4T 中英标识符的预训练与人类偏好对齐训练，[评测结果](#评测结果)显示，相比于初代模型，ChatGLM2-6B 在 MMLU（+23%）、CEval（+33%）、GSM8K（+571%） 、BBH（+60%）等数据集上的性能取得了大幅度的提升，在同尺寸开源模型中具有较强的竞争力。
