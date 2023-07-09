@@ -7,6 +7,8 @@
 
 ## Introduction
 
+The project includes an one-click script [Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb](./Langchain-ChatGLM2-6B-Aliyun-PAI-DSW.ipynb) for Ali Cloud to deploy ChatGLM2-6B to PAI-DSW. The project is the fork of [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B).
+    
 ChatGLM**2**-6B is the second-generation version of the open-source bilingual (Chinese-English) chat model [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B). It retains the smooth conversation flow and low deployment threshold of the first-generation model, while introducing the following new features:
 
 1. **Stronger Performance**: Based on the development experience of the first-generation ChatGLM model, we have fully upgraded the base model of ChatGLM2-6B. ChatGLM2-6B uses the hybrid objective function of [GLM](https://github.com/THUDM/GLM), and has undergone pre-training with 1.4T bilingual tokens and human preference alignment training. The [evaluation results](README.md#evaluation-results) show that, compared to the first-generation model, ChatGLM2-6B has achieved substantial improvements in performance on datasets like MMLU (+23%), CEval (+33%), GSM8K (+571%), BBH (+60%), showing strong competitiveness among models of the same size.
